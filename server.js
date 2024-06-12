@@ -7,7 +7,7 @@
 *  https://www.senecacollege.ca/about/policies/academic-integrity-policy.html
 * 
 *  Name: __________Nyan Lin Htet____________ Student ID: _____131308223_________ Date: ______12 June 2024________
-*
+* Published URL : https://deploymentlegosets.vercel.app/
 ********************************************************************************/
 
 //Import the required modules
@@ -50,7 +50,8 @@ app.get('/about', (req, res) => {
 // Serve static files
 //app.use(express.static('public'));
 
-app.use(express.static(__dirname, 'public'));
+//app.use(express.static(__dirname, 'public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 //GET "/lego/sets"
 app.get('/lego/sets', (req, res) => {
