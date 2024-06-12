@@ -1,0 +1,83 @@
+[
+    {
+        "set_num": "001-1",
+        "name": "Gears",
+        "year": "1965",
+        "theme_id": "1",
+        "num_parts": "43",
+        "img_url": "https://cdn.rebrickable.com/media/sets/001-1.jpg",
+        "": ""
+    },
+    {
+        "set_num": "0011-2",
+        "name": "Town Mini-Figures",
+        "year": "1979",
+        "theme_id": "67",
+        "num_parts": "12",
+        "img_url": "https://cdn.rebrickable.com/media/sets/0011-2.jpg",
+        "": ""
+    },
+    {
+        "set_num": "0011-3",
+        "name": "Castle 2 for 1 Bonus Offer",
+        "year": "1987",
+        "theme_id": "199",
+        "num_parts": "0",
+        "img_url": "https://cdn.rebrickable.com/media/sets/0011-3.jpg",
+        "": ""
+    },
+    {
+        "set_num": "0012-1",
+        "name": "Space Mini-Figures",
+        "year": "1979",
+        "theme_id": "143",
+        "num_parts": "12",
+        "img_url": "https://cdn.rebrickable.com/media/sets/0012-1.jpg",
+        "": ""
+    },
+    {
+        "set_num": "0013-1",
+        "name": "Space Mini-Figures",
+        "year": "1979",
+        "theme_id": "143",
+        "num_parts": "12",
+        "img_url": "https://cdn.rebrickable.com/media/sets/0013-1.jpg",
+        "": ""
+    },
+    {
+        "set_num": "0014-1",
+        "name": "Space Mini-Figures",
+        "year": "1979",
+        "theme_id": "143",
+        "num_parts": "2",
+        "img_url": "https://cdn.rebrickable.com/media/sets/0014-1.jpg",
+        "": ""
+    },
+    {
+        "set_num": "0015-1",
+        "name": "Space Mini-Figures",
+        "year": "1979",
+        "theme_id": "143",
+        "num_parts": "18",
+        "img_url": "https://cdn.rebrickable.com/media/sets/0015-1.jpg",
+        "": ""
+    },
+    {
+        "set_num": "0016-1",
+        "name": "Castle Mini Figures",
+        "year": "1979",
+        "theme_id": "189",
+        "num_parts": "15",
+        "img_url": "https://cdn.rebrickable.com/media/sets/0016-1.jpg",
+        "": ""
+    },
+    {
+        "set_num": "002-1",
+        "name": "4.5V Samsonite Gears Motor Set",
+        "year": "1965",
+        "theme_id": "1",
+        "num_parts": "3",
+        "img_url": "https://cdn.rebrickable.com/media/sets/002-1.jpg",
+        "": ""
+    }
+]
