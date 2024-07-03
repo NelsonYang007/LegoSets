@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+    <!-- <link href="../public/css/main.css" rel="stylesheet"> --> <!--local testing i.e run this with direct link-->
+    <link href="/css/main.css" rel="stylesheet"> <!-- live server -->
+</head>
+<body>
+      <%- include('partials/navbar', {page: '/lego/sets'}) %>
+      
+    <div class="container mx-auto mt-8">
+        <div class="hero bg-base-200 p-6 rounded-lg text-center">
+            <div class="hero-content text-center">
+                <div class="max-w-md">
+                    <h1 class="text-3xl font-bold">Collections</h1>
+                    <p class="mt-4">Browse the entire collection. Click the theme to filter by themes</p><br>
+                    <p> Such as</p>
+                    <a href="/lego/sets?theme=Technic" class="btn btn-primary mt-4">TECHNIC</a>
+                    <a href="/lego/sets?theme=<%=encodeURIComponent('Classic Town')%>" class="btn btn-primary mt-4">CLASSIC TOWN</a>
+                    <a href="/lego/sets?theme=Supplemental" class="btn btn-primary mt-4">SUPPLEMENTAL</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overflow-x-auto">
+        <table class="table table-zebra table-lg table-md table-sm w-full text-center">
+          <tbody>
+            <% data.forEach(sets=>{ %>
+                <tr>
+                 <td>
+                    <div class="avatar">
+                        <div class="w-24 rounded-full">
+                          <img src="<%= sets.img_url %>" />
+                        </div>
+                      </div>
+                 </td>
+                  <td><%= sets.name %> | <a class="btn btn-primary btn-sm mr-2" href="/lego/sets?theme=<%= sets.theme_name %>"><%= sets.theme_name %></a></td>
+                  <td><b>Year:</b> <%= sets.year %> - <b>Parts:</b> <%= sets.num_parts %></td>
+                  <td><a class="btn btn-primary btn-sm mr-2" href="/lego/sets/<%= sets.set_num %>">Details</a> </td>
+                </tr>
+              <% }) %>
+          </tbody>
+        </table>
+      </div>
+</body>
+</html>

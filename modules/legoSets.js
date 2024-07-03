@@ -69,7 +69,8 @@ function getSetsByTheme(theme) {
     return new Promise((resolve, reject) => {
         try {
             const lowerCaseTheme = theme.toLowerCase();
-            const foundSets = sets.filter(set => set.theme.toLowerCase().includes(lowerCaseTheme));
+            const foundSets = sets.filter(set => set.theme_name.toLowerCase().includes(lowerCaseTheme));
+
             if (foundSets.length > 0) {
                 resolve(foundSets);
             } else {

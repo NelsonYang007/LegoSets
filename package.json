@@ -2,12 +2,12 @@
   "dependencies": {
     "@tailwindcss/typography": "^0.5.13",
     "daisyui": "^4.12.2",
+    "ejs": "^3.1.10",
     "express": "^4.19.2"
   },
   "scripts": {
     "tw:build": "tailwindcss build -i ./public/css/tailwind.css -o ./public/css/main.css",
     "start": "node server.js"
-    
   },
   "name": "assignment2",
   "version": "1.0.0",
